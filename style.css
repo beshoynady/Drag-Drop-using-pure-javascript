@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: fuchsia;
+
+}
+.container .input{
+    width: 300px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.container .input .data {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container .dinput .data input{
+    padding: 5px;
+    outline: none;
+}
+.container .input .data button{
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+
+
+.container .list{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.container .list .box{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.container .list .box .item{
+    margin: 10px;
+    padding: 10px;
+    background-color: fuchsia;
+    cursor: pointer;
+}
